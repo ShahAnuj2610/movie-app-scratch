@@ -9,7 +9,7 @@ const footerCls = css`
 const AppFooter = Layout.Footer;
 const Footer = () => (
   <AppFooter css={footerCls}>
-    Appbase.io ©2018 Created by Appbase Inc.
+    Appbase.io ©2020 Created by Appbase Inc.
   </AppFooter>
 );
 export default Footer;
