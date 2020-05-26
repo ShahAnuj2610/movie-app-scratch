@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "next build",
+    "build": "node ./scripts/create-env.js && next build",
+    "heroku-postbuild": "node ./scripts/create-env.js && next build",
     "start": "node server.js"
   },
   "dependencies": {
