@@ -127,6 +127,7 @@ const SearchPage = () => (
             overview={res.overview}
             price={res.price}
             voteAverage={res.vote_average}
+            product={res}
           />
         )}
       />
