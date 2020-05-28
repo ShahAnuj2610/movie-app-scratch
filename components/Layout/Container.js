@@ -25,7 +25,7 @@ const Container = ({ children, title = 'Movies Store' }) => (
           fontFamily: 'Lato',
         },
       }}
-      analyticsConfig={{ recordAnalytics: true }}
+      appbaseConfig={{ recordAnalytics: true, enableQueryRules: false }}
     >
       {children}
     </ReactiveBase>
