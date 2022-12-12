@@ -18,7 +18,7 @@
     "auth0-js": "^9.13.2",
     "emotion": "^10.0.27",
     "emotion-server": "^10.0.27",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "lodash": "^4.17.15",
     "lru-cache": "^5.1.1",
     "next": "^9.4.2",
